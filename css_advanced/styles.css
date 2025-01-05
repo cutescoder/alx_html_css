@@ -1,0 +1,25 @@
+.background {
+    background-image: url(CSS\ Advanced/object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header li {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+
+header li a {
+    text-decoration: none;
+    padding: 20px; 
+    color: white;
+    font-size: 10px;
+} 
+div span {
+    margin: 20px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
