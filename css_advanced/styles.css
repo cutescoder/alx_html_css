@@ -1,67 +1,79 @@
-.first-page {
-    background-image: url(./CSS\ Advanced/object.png);
+.background {
+    background-image: url(./CSS\ Advanced/Object.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
 }
 nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 80px;
+    justify-content: space-around;
+    padding: 20px;     
 }
 nav ul {
     display: flex;
-    list-style: none;
+    gap: 50px;
 }
 nav ul li {
-    margin: 0 15px;
+    list-style: none;
+    margin-top: -17px;
 }
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 10px;
+    font-size: 10px
 }
-.first-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center
-}
-.pros {
-    display: flex;   
-    flex-direction: row;
-}
-.round-image {
-    border-radius: 50%;
+.register {
+    text-align: center;
+    line-height: 1px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 65px;
+    color: white;
+    margin-top: 130px;
 }
-.quote {
+button {
+    padding: 7px 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: #c271fe;
+    font-size: 10px;
+    margin-top: 20px;
+    border: 0;
+    box-shadow: -1px 0px 9px 3px rgba(0,0,0,0.45);
+}
+.register > span {
+    margin: 20px;
+    font-size: 10px;
+    color: white;  
+}
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+span {
+    color: #c271fe;
+}
+.the-pros {
     display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    padding: 40px;
+}
+.Bruce > img {
+    border-radius: 50%;
+}
+h3, p {
+    color: white;
+    text-align: center;
+}
+p {
+    font-style: italic;
+    font-size: 12px;
+}
+h3 {
+    font-size: 12px;
+}
+.the-pros img {
+    height: 100px;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: blueviolet;
-    height: 50vh;
-}
-.tutorials {
-    display: flex;
-}
-.membership {
-    background-color: darkslateblue;
-}
-.free-membership {
-    display: flex;
-    height: 30vh;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 50px;
-}
-footer {
-    background-color: darkslateblue;
-}
-.footer-color {
-    display: flex;
 }
