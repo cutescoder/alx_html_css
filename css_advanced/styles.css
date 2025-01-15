@@ -77,3 +77,75 @@ h3 {
     height: 100px;
     align-items: center;
 }
+
+.testimonial {
+    background-color: #c271fe;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.testimonial, blockquote {
+    color: white;
+}
+.quotes  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.quotes > h3 {
+    margin-left: 40px;
+    line-height: 1px;
+}
+.quotes > p {
+    margin-left: 40px;
+    line-height: 1px;
+}
+.popular {
+    color: black;
+    margin: 50px;
+}
+.popular-tutorial {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-top: -40px;
+}
+.smile {
+    color: black;
+    text-align: left;
+}
+.lorem-ipsum {
+    color: gray;
+    text-align: left;
+}
+.massey {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+.massey > img {
+    height: 30px;
+}
+.massey > h4 {
+    color: #c271fe;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.duration {
+    color: #c271fe;
+    font-size: 10px;
+    margin: -16px;
+    margin-right: -200px;
+}
+.playing {
+    position: relative;
+}
+.play {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.membership {
+    background-color: #071629;
+}
