@@ -1,3 +1,4 @@
+
 .background {
     background-image: url(./CSS\ Advanced/Object.png);
     background-size: cover;
@@ -148,4 +149,57 @@ h3 {
 }
 .membership {
     background-color: #071629;
+    
+}
+.membership > h2 {
+    margin-top: 20px;
+    padding: 50px;
+}
+.free-membership {
+    display: flex;
+    justify-content: space-evenly;
+}
+.grin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.membership > button {
+    margin: 50px;
+    margin-left: 550px;
+}
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+.faq-section > h2 {
+    color: black;
+}
+.faq {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    line-height: 20px;
+}
+.lorem-faq {
+    font-size: 12px;
+}
+.sub > h3 {
+    color: black;
+    text-align: left;
+}
+footer {
+    background-color: #071629;
+}
+.favicon {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+.footer-section {
+    padding: 50px;
+    margin: 30px;
 }
