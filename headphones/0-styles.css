@@ -1,0 +1,133 @@
+
+body, html {
+    margin: 0;
+}
+#first_page {
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+    font-size: 12px;
+    padding: 5px;
+    
+}
+nav img {
+    padding: 15px;
+}
+.section_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35vh;
+}
+.small_paragraph {
+    text-align: center;
+    padding: 80px;
+}
+.section_one h1,p {
+    color: white;
+}
+.section_one  button {
+    color: white;
+    background-color: #f66167;
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 10px;
+    border: 0;
+}
+.first_paragraph {
+    margin-top: -35px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #FF6565;
+}
+button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+    #first_page {
+        background-image: url(./images/headphones_hero_1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh; /* Default height for desktop */
+      }
+    body, html {
+        margin: 0;
+        padding: 0;
+    } 
+    nav ul {
+        display: none;
+      }
+    nav {
+        justify-content: center;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    .section_one h1 {
+        font-size: 28px;
+        text-align: center;
+        padding: 80px;
+    }
+    .first_paragraph {
+        font-size: 12px;
+        padding: 75px;
+        text-align: center;
+        margin-top: -30vh;
+        max-width: 35%;
+    }
+    .section_one > button {
+        margin-top: -10vh;
+    }
+    .section_one {
+        margin-top: 15vh;
+    }
+    .small_paragraph {
+        max-width: 80%;
+        font-size: 13px; 
+        padding: 30px;      
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+    body, html {
+        margin: 0;
+    }
+    #first_page {
+        background-image: url(./images/headphones_hero_1.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;        
+    }
+    .section_one > h1 {
+        font-size: 40px;
+    }
+    .first_paragraph {
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .section_one > button {
+        margin-top: 20px;
+        padding: 20px 40px;
+    }
+    .small_paragraph {
+        line-height: 30px;
+        max-width: 70vh;
+    }
+}
