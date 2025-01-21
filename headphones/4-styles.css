@@ -1,0 +1,17 @@
+footer {
+    background-color: #071629;
+}
+.favicon {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 30px;
+    
+}
+.footer-section {
+    padding: 50px;
+    margin: 30px;
+}
+p {
+    text-align: center;
+}
